@@ -18,6 +18,10 @@ public:
 };
 ```
 
+All Structs in Unreal Engine 4 are prefixed with a *capital F* this is a form of [Hungarian Notation](https://en.wikipedia.org/wiki/Hungarian_notation) Epic uses to identify certain types within their engine.
+
+For a full list of prefixes used within the UE4 C++ code: ...
+
 ### UE4 Macros
 These macros are a way for Unreal Engine 4 to manage these as objects.
 ##### USTRUCT()
