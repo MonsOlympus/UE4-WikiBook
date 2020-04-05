@@ -1,8 +1,8 @@
 # Structs
 
-Structs (or structures) are a composite [data type](https://en.wikipedia.org/wiki/Data_type) that allow programmers to group members into a single type. A struct (in C++) can contain any combination of [member variables](https://en.wikipedia.org/wiki/Member_variable) including other Struct types and [member functions](https://en.wikipedia.org/wiki/Method_(computer_programming)#Member_functions_in_C++).
+Structs (or structures) are a composite [data type](https://en.wikipedia.org/wiki/Data_type) that allow programmers to group members into a single type. A struct (in C++) can contain any combination of [member variables](https://en.wikipedia.org/wiki/Member_variable) including other struct types and [member functions](https://en.wikipedia.org/wiki/Method_(computer_programming)#Member_functions_in_C++).
 
-However this does not extend to Blueprint, Structs created within the Unreal Editor are limited to member variables only as member functions cannot be declared with the UFUNCTION Macro.
+However this does not extend to Blueprint, structs created within the Unreal Editor are limited to member variables only as member functions cannot be declared with the UFUNCTION Macro.
 
 ## Declaration Syntax
 
