@@ -23,11 +23,9 @@ All Structs in Unreal Engine 4 are prefixed with a *capital F* this is a form of
 For a full list of prefixes used within the UE4 C++ code: ...
 
 ### UE4 Macros
-These macros are a way for Unreal Engine 4 to manage these as objects.
+These [macros](https://github.com/MonsOlympus/UE4-WikiBook/blob/master/References/Macros.md) are a way for Unreal Engine 4 to manage these as objects.
 ##### USTRUCT()
 Without this declaration the struct is a standard C++ struct type. However when delcared as used with the parameter BlueprintType this becomes a managed object usable with UE4s Blueprint Editor.
-##### GENERATED_BODY()
-In engine versions 4.11 and earlier GENERATED_USTRUCT_BODY may be used instead of GENERATED_BODY().
 ##### UPROPERTY()
 For a member variable to be considered for replication it must use the UPROPERTY() macro.
 ##### UFUNCTION()
