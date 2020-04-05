@@ -12,7 +12,7 @@ struct FYourStructName
     
 public:
     UPROPERTY()
-  int32 YourMemberVariable;
+    int32 YourMemberVariable;
 };
 ```
 
@@ -24,6 +24,25 @@ Without this declaration the struct type is a basic C++ struct type. However whe
 - UPROPERTY()
 
 ### Struct Constructors and Default Member Variables
+There are a few different ways of defining default member variables for structs.
+
+```C++
+USTRUCT(BlueprintType)
+struct FYourStructName
+{
+    GENERATED_BODY()
+    
+public:
+    UPROPERTY()
+    int32 YourMemberVariable;
+    
+    FYourStructName()
+    {
+        YourMemberVariable = 10;
+    }
+};
+```
+This is the most basic using the default constructor to set the member variable once it is created.
 
 ## Further Reading
 - [Official - Unreal Architecture - Structs](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Structs/index.html)
