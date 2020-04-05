@@ -51,10 +51,35 @@ public:
 This is the most basic, using the default constructor to set the member variable once it is created.
 
 ## Nesting Structs
+When nesting structs it is important that the struct you wish to use as a member variable be delcared, you may want to seperate our your most use structs to a header which can be reused in many files.
+
+```C++
+USTRUCT(BlueprintType)
+struct FYourFirstStructName
+{
+    GENERATED_BODY()
+    
+public:
+    UPROPERTY()
+    int32 YourMemberVariable;
+};
+
+USTRUCT(BlueprintType)
+struct FYourSecondStructName
+{
+    GENERATED_BODY()
+    
+public:
+    UPROPERTY()
+    FYourFirstStructName YourStructMemberVariable;
+};
+```
 
 ## Struct Assignment
 
 ## Accessing Struct Members
+
+### Nested Structs
 
 ## Initialising Structs
 
