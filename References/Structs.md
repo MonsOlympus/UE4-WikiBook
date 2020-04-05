@@ -16,12 +16,12 @@ public:
 ```
 
 ### UE4 Macros
-USTRUCT()
-GENERATED_BODY()
-UPROPERTY()
+-USTRUCT()
+-GENERATED_BODY()
+-UPROPERTY()
 
 ### Struct Constructors and Default Member Variables
 
 ## Further Reading
-[Official - Unreal Architecture - Structs](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Structs/index.html)
-[Wikipedia - C Programming - Structs](https://en.wikipedia.org/wiki/Struct_(C_programming_language))
+-[Official - Unreal Architecture - Structs](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Structs/index.html)
+-[Wikipedia - C Programming - Structs](https://en.wikipedia.org/wiki/Struct_(C_programming_language))
