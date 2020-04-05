@@ -2,6 +2,8 @@
 
 Structs (or structures) are a composite [data type](https://en.wikipedia.org/wiki/Data_type) that can contain multiple [member variables](https://en.wikipedia.org/wiki/Member_variable), including another struct type.
 
+*Structures in C++ can have member functions along with data members.*
+
 ## Declaration Syntax
 
 ```C++
@@ -42,7 +44,15 @@ public:
     }
 };
 ```
-This is the most basic using the default constructor to set the member variable once it is created.
+This is the most basic, using the default constructor to set the member variable once it is created.
+
+## Nesting Structs
+
+## Struct Assignment
+
+## Accessing Struct Members
+
+## Initialising Structs
 
 ## Further Reading
 - [Official - Unreal Architecture - Structs](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Structs/index.html)
