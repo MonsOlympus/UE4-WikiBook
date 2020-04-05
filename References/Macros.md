@@ -10,4 +10,6 @@ For a member variable to be considered for replication it must use the UPROPERTY
 Should not be used with Struct Member Functions!
 
 
-* Unreal Engine 4 API
+# Categories / Tags
+* API
+* C++
