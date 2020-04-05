@@ -11,12 +11,15 @@ struct FYourStructName
     GENERATED_BODY()
     
 public:
+    UPROPERTY()
   int32 YourMemberVariable;
 };
 ```
 
 ### UE4 Macros
+These macros are a way for Unreal Engine 4 to manage these as objects.
 - USTRUCT()
+Without this declaration the struct type is a basic C++ struct type. However when delcared as used with the parameter BlueprintType this becomes a managed object usable with UE4s Blueprint Editor.
 - GENERATED_BODY()
 - UPROPERTY()
 
