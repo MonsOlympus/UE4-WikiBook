@@ -1,8 +1,8 @@
 # Structs
 
-Structs (or structures) are a composite [data type](https://en.wikipedia.org/wiki/Data_type) that can contain multiple [member variables](https://en.wikipedia.org/wiki/Member_variable), including another struct type.
+Structs (or structures) are a composite [data type](https://en.wikipedia.org/wiki/Data_type) that allow programmers to group members into a single type. A struct (in C++) can contain any combination of [member variables](https://en.wikipedia.org/wiki/Member_variable) including other Struct types and [member functions](https://en.wikipedia.org/wiki/Method_(computer_programming)#Member_functions_in_C++).
 
-*Structures in C++ can have member functions along with data members.*
+However this does not extend to Blueprint, Structs created within the Unreal Editor are limited to member variables only as member functions cannot be declared with the UFUNCTION Macro.
 
 ## Declaration Syntax
 
@@ -20,10 +20,12 @@ public:
 
 ### UE4 Macros
 These macros are a way for Unreal Engine 4 to manage these as objects.
-- USTRUCT()
-Without this declaration the struct type is a basic C++ struct type. However when delcared as used with the parameter BlueprintType this becomes a managed object usable with UE4s Blueprint Editor.
-- GENERATED_BODY()
-- UPROPERTY()
+##### USTRUCT()
+Without this declaration the struct is a standard C++ struct type. However when delcared as used with the parameter BlueprintType this becomes a managed object usable with UE4s Blueprint Editor.
+##### GENERATED_BODY()
+##### UPROPERTY()
+##### UFUNCTION()
+Should not be used with Struct Member Functions!
 
 ### Struct Constructors and Default Member Variables
 There are a few different ways of defining default member variables for structs.
