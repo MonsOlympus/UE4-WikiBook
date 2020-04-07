@@ -9,8 +9,9 @@ Primary focuses for the short term will be:
 * [Modules & Plugins](References/Modules.md)
 
 [Lessons](Lessons/Contents.md)
-* Create a class (both C++ and BP)
-* Using the Constructor (both C++ and BP)
+* Basic Procedures
+  * Create a class (both C++ and BP)
+  * Using the Constructor (both C++ and BP)
 
 
 
