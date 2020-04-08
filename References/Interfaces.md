@@ -1,5 +1,5 @@
 # Interfaces
-Interfaces in Unreal Engine are an extremely useful tool though I feel they are underused because of the difficulty with implementation. This isnt a standard feature of C++ so the compiler does always give you a nice error message.
+Interfaces in Unreal Engine are an extremely useful tool though I feel they are underused because of the difficulty with implementation. These dont use standard C++ interfaces, tney have more in common with java interfaces but you have to be careful because the compiler has no knowledge so it wont give you clean error messages.
 
 ## Interface Declaration
 Header
