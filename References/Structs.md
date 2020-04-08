@@ -6,7 +6,7 @@ However this does not extend to Blueprint, structs created within the Unreal Edi
 
 ## Declaration Syntax
 
-```C++
+```c++
 USTRUCT(BlueprintType)
 struct FYourStructName
 {
@@ -34,7 +34,7 @@ Should not be used with Struct Member Functions!
 ### Struct Constructors and Default Member Variables
 There are a few different ways of defining default member variables for structs.
 
-```C++
+```c++
 USTRUCT(BlueprintType)
 struct FYourStructName
 {
@@ -50,7 +50,7 @@ public:
     }
 };
 ```
-```C++
+```c++
 USTRUCT(BlueprintType)
 struct FLimitedResource
 {
@@ -77,7 +77,7 @@ This is the most basic, using the default constructor to set the member variable
 ## Nesting Structs
 When nesting structs it is important that the struct you wish to use as a member variable be delcared, you may want to seperate our your most use structs to a header which can be reused in many files.
 
-```C++
+```c++
 USTRUCT(BlueprintType)
 struct FYourFirstStructName
 {
