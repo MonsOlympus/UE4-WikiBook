@@ -9,6 +9,7 @@ For a member variable to be considered for replication it must use the UPROPERTY
 ##### UFUNCTION()
 Should not be used with Struct Member Functions!
 
+##### PROJECT_API
 
 # Categories / Tags
 * API
