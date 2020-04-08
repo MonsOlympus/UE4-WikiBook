@@ -10,8 +10,8 @@ class UYourInterface : public UInterface
     GENERATED_BODY()
 };
 ```
-Class
-```C++
+Source
+```c++
 class PROJECT_API IYourInterface
 {
     GENERATED_BODY()
@@ -23,14 +23,14 @@ public:
     virtual bool InterfaceFunction(SomeType* const TypePtr, const float& SomeFloat, const TArray<FText>& SomeTextEntries);
 };
 ```
-/* Actor header (override declaration): */
-```C++
+Actor header (override declaration)
+```c++
 class PROJECT_API AMyActor : public AActor, public IMyInterface
 
 virtual bool InterfaceFunction(SomeType* const TypePtr, const float& SomeFloat, const TArray<FText>& SomeTextEntries);
 ```
-/* Actor source (override definition): */
-```C++
+Actor source (override definition)
+```c++
 bool AMyActor::InterfaceFunction(SomeType* const TypePtr, const float& SomeFloat, const TArray<FText>& SomeTextEntries) 
 {
     /* some arbitrary code here */
