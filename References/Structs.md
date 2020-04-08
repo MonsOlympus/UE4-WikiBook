@@ -50,6 +50,28 @@ public:
     }
 };
 ```
+```C++
+USTRUCT(BlueprintType)
+struct FLimitedResource
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	FName Name;
+
+	UPROPERTY()
+	FVector Value;
+
+	FLimitedResource()
+		: Name("Default"), Value(FVector(0.0f, 0.0f, 0.0f))
+	{}
+
+	FLimitedResource(const FName NewName, const FVector NewValue)
+		: Name(NewName), Value(NewValue)
+	{}
+};
+```
+
 This is the most basic, using the default constructor to set the member variable once it is created.
 
 ## Nesting Structs
