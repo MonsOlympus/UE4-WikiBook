@@ -15,8 +15,9 @@ Primary focuses for the short term will be:
 
 
 
-[License](LICENSE.md/LICENSE.md)
-Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+### License
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)<br>
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-[Author](https://www.linkedin.com/in/danielbatten/)
+### Author
+[Daniel Batten](https://www.linkedin.com/in/danielbatten/) aka MonsOlympus
