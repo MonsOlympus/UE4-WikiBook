@@ -15,6 +15,6 @@ Primary focuses for the short term will be:
 
 
 
-[License](LICENSE.md)
+[License](LICENSE.md/LICENSE.md)
 
 [Author](https://www.linkedin.com/in/danielbatten/)
