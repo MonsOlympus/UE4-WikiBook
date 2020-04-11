@@ -18,6 +18,7 @@ Tertiary focuses for the long term will be:
 * [Replication]
 * [Replication Graph]
 * [Vector Math for Designers]
+* [Editor Extensions]
 
 [Lessons](Lessons/Contents.md)
 * Basic Procedures
