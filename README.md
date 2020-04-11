@@ -24,7 +24,9 @@ Tertiary focuses for the long term will be:
 * Basic Procedures
   * Create a class (both C++ and BP)
   * Using the Constructor (both C++ and BP)
-
+* Design
+  * Monetary Systems (not related to business model)
+  * Life Services (dont steal your health mechanic)
 
 
 ### License
