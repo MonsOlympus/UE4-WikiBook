@@ -27,6 +27,7 @@ Tertiary focuses for the long term will be:
 * Design
   * Monetary Systems (not related to business model)
   * Life Services (dont steal your health mechanic)
+  * To respawn or not to respawn
 
 
 ### License
