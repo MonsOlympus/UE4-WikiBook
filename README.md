@@ -8,6 +8,17 @@ Primary focuses for the short term will be:
 * [Interfaces](References/Interfaces.md)
 * [Modules & Plugins](References/Modules.md)
 
+Secondary focuses for the mid term will be:
+* [Timers]
+* [Delegates]
+* [State Machines]
+* [Components]
+
+Tertiary focuses for the long term will be:
+* [Replication]
+* [Replication Graph]
+* [Vector Math for Designers]
+
 [Lessons](Lessons/Contents.md)
 * Basic Procedures
   * Create a class (both C++ and BP)
