@@ -9,14 +9,15 @@ Primary focuses for the short term will be:
 * [Modules & Plugins](References/Modules.md)
 
 Secondary focuses for the mid term will be:
-* [Timers]
 * [Delegates]
+  * [Timers]
+  * [Events]
 * [State Machines]
 * [Components]
 
 Tertiary focuses for the long term will be:
 * [Replication]
-* [Replication Graph]
+  * [Replication Graph]
 * [Vector Math for Designers]
 * [Editor Extensions]
 
@@ -25,9 +26,9 @@ Tertiary focuses for the long term will be:
   * Create a class (both C++ and BP)
   * Using the Constructor (both C++ and BP)
 * Design
-  * Monetary Systems (not related to business model)
-  * Life Services (dont steal your health mechanic)
-  * To respawn or not to respawn
+  * Monetary Systems - Not related to business model
+  * Life Services - Dont steal your health mechanic
+  * To respawn or not to respawn - That is the question
 
 
 ### License

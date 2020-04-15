@@ -4,7 +4,7 @@ Interfaces in Unreal Engine are an extremely useful tool though I feel they are 
 ## Interface Declaration
 Header
 ```c++
-UINTERFACE()
+UINTERFACE(MinimalAPI, Blueprintable)
 class UYourInterface : public UInterface
 {
     GENERATED_BODY()
@@ -18,8 +18,6 @@ class PROJECT_API IYourInterface
 
     // Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
-
-
     virtual bool InterfaceFunction(SomeType* const TypePtr, const float& SomeFloat, const TArray<FText>& SomeTextEntries);
 };
 ```
@@ -38,3 +36,6 @@ bool AMyActor::InterfaceFunction(SomeType* const TypePtr, const float& SomeFloat
 ```
 
 Be sure to check your returns.
+
+* Expand to cover UFUNCTIONS defined in Interfaces
+* Overlap between Delegates and Interfaces
