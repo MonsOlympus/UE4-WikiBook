@@ -1,13 +1,13 @@
 # Macros
 
-## Definitions
-* UENUM()
+### Definitions
+#### UENUM()
 Do not require a GENERATED_BODY().
-* UCLASS()
-* USTRUCT()
+#### UCLASS()
+#### USTRUCT()
 Without this declaration the struct is a standard C++ struct type. However when delcared as used with the parameter BlueprintType this becomes a managed object usable with UE4s Blueprint Editor.
 
-* UINTERFACE()
+#### UINTERFACE()
 
 UE_DEPRECATED(4.23, "Replace with GetAuthoredNameForField or UField::GetAuthoredName")
 
@@ -35,17 +35,21 @@ UFUNCTION(BlueprintPure, Category = "Attrbiutes")
 
 #### PROJECT_API
 
-## Logging Macros
+### Logging Macros
 
-### Headers (*.h)
+#### Headers (*.h)
 DECLARE_LOG_CATEGORY_EXTERN(Attributes, VeryVerbose, All);
 
-### Source (*.cpp)
+#### Source (*.cpp)
 DEFINE_LOG_CATEGORY(Attributes);
 UE_LOG(Attributes, VeryVerbose, TEXT("New Attribute Registered: %s"), *AttributeName.ToString());
 
-### Other
+#### Other
 UE_CLOG( !EnumClass, LogClass, Fatal, TEXT("Couldn't find enum '%s'"), EnumPath );
+
+DECLARE_CYCLE_STAT(TEXT("AbilitySystemComp ApplyGameplayEffectSpecToTarget"), STAT_AbilitySystemComp_ApplyGameplayEffectSpecToTarget, STATGROUP_AbilitySystem);
+
+#define LOCTEXT_NAMESPACE "AbilitySystemComponent"
 
 ## Delegates
 
@@ -53,11 +57,11 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FAttributeTriggerDelegate);
 
 ## Editor & Builds
 
-#if WITH_EDITOR
-#if HACK_HEADER_GENERATOR
-#if ENABLE_GC_OBJECT_CHECKS
-#if WITH_HOT_RELOAD
-#if !(UE_BUILD_TEST || UE_BUILD_SHIPPING)
+\#if WITH_EDITOR
+\#if HACK_HEADER_GENERATOR
+\#if ENABLE_GC_OBJECT_CHECKS
+\#if WITH_HOT_RELOAD
+\#if !(UE_BUILD_TEST || UE_BUILD_SHIPPING)
 
 ## Others
 
@@ -72,11 +76,9 @@ DECLARE_WITHIN(UClass)
 DECLARE_CASTED_CLASS_INTRINSIC_NO_CTOR(UClass, UStruct, 0, TEXT("/Script/CoreUObject"), CASTCLASS_UClass, NO_API)
 DECLARE_WITHIN_UPACKAGE()
 
-#if USTRUCT_FAST_ISCHILDOF_IMPL == USTRUCT_ISCHILDOF_STRUCTARRAY
-
-#if USTRUCT_FAST_ISCHILDOF_COMPARE_WITH_OUTERWALK || USTRUCT_FAST_ISCHILDOF_IMPL == USTRUCT_ISCHILDOF_OUTERWALK
-
-#if PLATFORM_COMPILER_HAS_IF_CONSTEXPR
+\#if USTRUCT_FAST_ISCHILDOF_IMPL == USTRUCT_ISCHILDOF_STRUCTARRAY
+\#if USTRUCT_FAST_ISCHILDOF_COMPARE_WITH_OUTERWALK || USTRUCT_FAST_ISCHILDOF_IMPL == USTRUCT_ISCHILDOF_OUTERWALK
+\#if PLATFORM_COMPILER_HAS_IF_CONSTEXPR
 
 ENUM_CLASS_FLAGS(EGetByNameFlags)
 

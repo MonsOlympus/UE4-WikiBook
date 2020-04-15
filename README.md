@@ -1,10 +1,10 @@
 The idea of this project is to provide free educational content to the UE4 community.
 
 Primary focuses for the short term will be:
-* [Macros](References/Macros.md)
-* [Structs](References/Structs.md)
-* [Interfaces](References/Interfaces.md)
-* [Modules & Plugins](References/Modules.md)
+- [ ] [Macros](References/Macros.md)
+- [ ] [Structs](References/Structs.md)
+- [ ] [Interfaces](References/Interfaces.md)
+- [ ] [Modules & Plugins](References/Modules.md)
 
 Secondary focuses for the mid term will be:
 * [Delegates]
