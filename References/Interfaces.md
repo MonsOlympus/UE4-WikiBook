@@ -40,4 +40,8 @@ Be sure to check your returns.
 * Expand to cover UFUNCTIONS defined in Interfaces
 * Overlap between Delegates and Interfaces
 
+<<<<<<< HEAD
 Back to [Main Page](../README.md)
+=======
+Back to [Main Page](../README.md)
+>>>>>>> 03f76e81d4c8bacea29030ba5818766af3f199c5
