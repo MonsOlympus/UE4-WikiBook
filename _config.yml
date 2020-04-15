@@ -1,2 +1,2 @@
-theme: mmistakes/jekyll-theme-basically-basic
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 highlighter: rouge
