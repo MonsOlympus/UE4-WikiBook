@@ -1,6 +1,7 @@
 # Macros
 
 ### Definitions
+By defining a member as a U macro you are telling Unreal Build Tool you want the Unreal Engine VM to manage it. This gains you advantages like automatic reflection and garbage collection among others.
 #### UENUM()
 Do not require a GENERATED_BODY().
 #### UCLASS()
