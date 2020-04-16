@@ -50,7 +50,14 @@ UE_CLOG( !EnumClass, LogClass, Fatal, TEXT("Couldn't find enum '%s'"), EnumPath 
 
 DECLARE_CYCLE_STAT(TEXT("AbilitySystemComp ApplyGameplayEffectSpecToTarget"), STAT_AbilitySystemComp_ApplyGameplayEffectSpecToTarget, STATGROUP_AbilitySystem);
 
-#define LOCTEXT_NAMESPACE "AbilitySystemComponent"
+\#if WITH_SERVER_CODE
+	SCOPE_CYCLE_COUNTER(STAT_AbilitySystemComp_ApplyGameplayEffectSpecToSelf);
+
+\#define LOCTEXT_NAMESPACE "AbilitySystemComponent"
+
+			// Log results of applied GE spec
+			if (UE_LOG_ACTIVE(VLogAbilitySystem, Log))
+			{
 
 ## Delegates
 
@@ -65,6 +72,8 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FAttributeTriggerDelegate);
 \#if !(UE_BUILD_TEST || UE_BUILD_SHIPPING)
 
 ## Others
+
+check()
 
 FORCEINLINE
 
