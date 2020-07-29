@@ -5,17 +5,27 @@ Primary focuses for the short term will be:
 - [ ] [Structs](References/Structs.md)
 - [ ] [Interfaces](References/Interfaces.md)
 - [ ] [Modules](References/Modules.md)
+- [ ] [Classes](Referneces/Classes.md)
+- [ ] [Actors](References/Actors.md)
+- [ ] [Components](References/Components.md)
 
 Secondary focuses for the mid term will be:
-* [Components]
+* [Numerical Types]
+* [Compound Types]
 * [Containers]
   * [Arrays}
   * [Maps]
+* [Flow Control]
+* [Functions]
 * [Delegates]
   * [Timers]
   * [Events]
 
+* [Blueprints]
+  * [User Interface Basics]
+
 Tertiary focuses for the long term will be:
+* [Game Framework]
 * [State Machines]
 * [Replication]
   * [Replication Graph]
