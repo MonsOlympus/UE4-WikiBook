@@ -5,6 +5,7 @@ Actor is one of the most important aspects of Unreal Engine, it lays at the core
 Actors are composed of various [Components](Components.md)
 
 ### Info
+There are a class of Actors which have very minimal presence in the game world, they are largely managers and extend from the {{code|Info}} Actor. See [[Game Framework explained]] for more.
 
 ## Spawning
 Spawning refers to the process of creating an Actor, similar to New Object though having a physical presence in the game world means Actors are treated differently, because they have components like collision. If an Actors Spawn location is being blocked we call that Encroachment, its when two Actors (or more) share the same physical space.
@@ -19,8 +20,10 @@ Sometimes you need to get the Actor which actually initiated a Spawn which can b
 If you are finished with an Actor simply call the {{code|Destroy}} method.
 
 ## Archetypes
+This structure {{code|FActorSpawnParameters}} gives us an opportunity to use another existing Actor as a Template for spawning, as shown below with {{code|YourTemplateActor}} reference being set to use when Spawned.
 
 ## Attachment
+Attaching Actors typically happens through their Components, the most basic form of attachment would be through two Actors Root Components using {{code|AttachToActor}}.
 
 ### Detachment
 
@@ -33,7 +36,7 @@ If you are finished with an Actor simply call the {{code|Destroy}} method.
 ### Actor Channels
 
 ## Further Reading
-[https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Actors/index.html Actors Architecture]
+https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Actors/index.html
 
 ### C++
 {{epic|https://docs.unrealengine.com/en-US/API/Runtime/Engine/GameFramework/AActor/index.html Actor API}}
