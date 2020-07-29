@@ -13,7 +13,7 @@ Secondary focuses for the mid term will be:
 * [Numerical Types]
 * [Compound Types]
 * [Containers]
-  * [Arrays}
+  * [Arrays]
   * [Maps]
 * [Flow Control]
 * [Functions]
@@ -32,17 +32,7 @@ Tertiary focuses for the long term will be:
 * [Vector Math for Designers]
 * [Editor Extensions]
 
-[Lessons](Lessons/Contents.md)
-* Basic Procedures
-  * Create a class (both C++ and BP)
-  * Using the Constructor / Construction Script (C++ / BP)
-  * Create a Module / Content Plugin (C++ / BP)
-  * 
-* Design
-  * Monetary Systems - Not related to business model
-  * Life Services - Dont steal your health mechanic
-  * To respawn or not to respawn - That is the question
-  * Movement Mechanics
+- [ ] [Lessons](Lessons/Contents.md)
 
 ### License
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
