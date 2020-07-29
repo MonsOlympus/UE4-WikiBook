@@ -99,6 +99,28 @@ public:
 };
 ```
 
+## Extending Structs
+
+```c++
+USTRUCT(BlueprintType)
+struct FYourFirstStructName
+{
+    GENERATED_BODY()
+    
+public:
+    UPROPERTY()
+    int32 YourMemberVariable;
+};
+
+USTRUCT(BlueprintType)
+struct FYourSecondStructName : public FYourFirstStructName
+{
+    GENERATED_BODY()
+    
+};
+```
+Inherits YourMemberVariable from the parent Struct in the same way Class inheritance works.
+
 ## Struct Assignment
 
 ## Accessing Struct Members
