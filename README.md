@@ -1,13 +1,13 @@
 The goal of this project is to provide free educational content to the UE4 community.
 
 Primary focuses for the short term will be:
+- [ ] [Modules](References/Modules.md)
 - [ ] [Macros](References/Macros.md)
 - [ ] [Structs](References/Structs.md)
 - [ ] [Classes](References/Classes.md)
 - [ ] [Actors](References/Actors.md)
 - [ ] [Components](References/Components.md)
 - [ ] [Interfaces](References/Interfaces.md)
-- [ ] [Modules](References/Modules.md)
 
 Secondary focuses for the mid term will be:
 * [Numerical Types]

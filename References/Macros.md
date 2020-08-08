@@ -73,6 +73,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FAttributeTriggerDelegate);
 
 ## Others
 
+```c++
 check()
 
 FORCEINLINE
@@ -91,6 +92,7 @@ DECLARE_WITHIN_UPACKAGE()
 \#if PLATFORM_COMPILER_HAS_IF_CONSTEXPR
 
 ENUM_CLASS_FLAGS(EGetByNameFlags)
+```
 
 # Categories / Tags
 * API
