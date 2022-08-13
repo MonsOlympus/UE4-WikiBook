@@ -1,4 +1,4 @@
-The goal of this project is to provide free educational content to the UE4 community.
+The goal of this project is to provide free educational content for the Unreal Engine Community to simplify the process of using the engine for game creation specifically.
 
 Primary focuses for the short term will be:
 - [ ] [Modules](References/Modules.md)

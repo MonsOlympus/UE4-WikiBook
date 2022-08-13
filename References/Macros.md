@@ -10,7 +10,6 @@ Without this declaration the struct is a standard C++ struct type. However when 
 
 #### UINTERFACE()
 
-UE_DEPRECATED(4.23, "Replace with GetAuthoredNameForField or UField::GetAuthoredName")
 
 #### GENERATED_BODY()
 In engine versions 4.12 and newer
@@ -30,9 +29,11 @@ In engine versions 4.24 and earlier
 UPROPERTY() is used.
 
 #### UFUNCTION()
-Should not be used with Struct Member Functions!
+<div id="Warning">Should not be used with Struct Member Functions!</div>
 
 UFUNCTION(BlueprintPure, Category = "Attrbiutes")
+
+UE_DEPRECATED(4.23, "Replace with GetAuthoredNameForField or UField::GetAuthoredName")
 
 #### PROJECT_API
 
