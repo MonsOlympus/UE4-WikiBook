@@ -1,15 +1,18 @@
 # Modules
-When programming for Unreal Engine code is compiled to modules using C# target and build files. These files tell the compiler when a modules has a depedency on another, what plugins a module might require and which type of build a module is targeting.
+Projects and plugins within Unreal Engine are composed of components called modules, C++ code is compiled to modules using C# target and build files. These files tell the compiler when a module has a depedency on another, what plugins a module might require and which type of build a module is targeting. The plugin manager will notify you when loading/unloading a module which has a dependency on another or if a project requires a plugin to start.
+
+Projects / Plugins can be compiled from a number of modules, you may have modules which are only editor or developer related which arnt required for shipping builds.
 
 Client, Editor, Game, Server
 
+### Basic Procedure
+[Adding Modules](Lessons/BasicProcedures/AddingModules.md)
+[Creating Plugins](Lessons/BasicProcedures/CreatingPlugins.md)
 
-The main difference between a module and a plugin is organizational.
-A plugin is an optional module compiled outside of the game/engine modules and is added via the plugin browser in your project file.
+## UProjects && UPlugins
+These files contain JSON which describes which modules a Project or Plugin include, and the circumstances for when they are loaded.
 
-Modules can have any number of dependencies on other modules, in the plugin browser you will be notified when loading/unloading a module which requires another.
-
-Projects / Plugins can be compiled from a number of modules, you may have modules which are only editor or developer related which arnt required for shipping builds.
+Content only plugins
 
 ### With Git
 I have found the best method for sharing parts of a project is to seperate them into a plugin and using Gits Submodules on those sub directories within the project.

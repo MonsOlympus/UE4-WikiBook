@@ -1,6 +1,6 @@
-The goal of this project is to provide free educational content for the Unreal Engine Community to simplify the process of using the engine for game creation specifically.
+The goal of this project is to provide free educational content for the Unreal Engine Community to simplify the process of using the engine for game system design. References will be kept concised and focused on teaching the concepts as briskly as possible, for more technical details Epics [documentation] and other community efforts are [available](blogs.md).
 
-Primary focuses for the short term will be:
+## References
 - [ ] [Modules](References/Modules.md)
 - [ ] [Macros](References/Macros.md)
 - [ ] [Structs](References/Structs.md)
@@ -9,30 +9,32 @@ Primary focuses for the short term will be:
 - [ ] [Components](References/Components.md)
 - [ ] [Interfaces](References/Interfaces.md)
 
-Secondary focuses for the mid term will be:
-* [Numerical Types]
-* [Compound Types]
-* [Containers]
-  * [Arrays]
-  * [Maps]
-* [Flow Control]
-* [Functions]
-* [Delegates]
-  * [Timers]
-  * [Events]
+## Lessons
+- [ ] [Lessons](Lessons/Contents.md)
 
-* [Blueprints]
-  * [User Interface Basics]
+## Updates
+Secondary focuses for the mid term will be:
+* Numerical Types
+* Compound Types
+* Containers
+  * Arrays
+  * Maps
+* Flow Control
+* Functions
+* Delegates
+  * Timers
+  * Events
+
+* Blueprints
+  * User Interface Basics
 
 Tertiary focuses for the long term will be:
-* [Game Framework]
-* [State Machines]
-* [Replication]
-  * [Replication Graph]
-* [Vector Math for Designers]
-* [Editor Extensions]
-
-- [ ] [Lessons](Lessons/Contents.md)
+* Game Framework
+* State Machines
+* Replication
+  * Replication Graph
+* Vector Math for Designers
+* Editor Extensions
 
 ### License
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
